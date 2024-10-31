@@ -1,0 +1,37 @@
+.cartItemContainer{
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.cartLeft{
+    height: 80%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cartLeft input[type="checkbox"]{
+    height: 12%;
+    width: 12%;
+}
+
+.cartCenter{
+    height: 80%;
+    width: 40%;
+    text-align: center;
+}
+
+.cartRight{
+    height: 80%;
+    width: 30%;
+    text-align: center;
+}
+
+.cartLeft img{
+    height: 80%;
+    width: auto;
+}

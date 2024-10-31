@@ -1,0 +1,37 @@
+
+.categorySelector button{
+    margin: 0 1%;
+    border: none;
+    background-color: inherit;
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+    font-size: calc(1vw + 0.6vh);
+}
+
+.merriweather-black {
+    font-family: "Merriweather", serif;
+    font-weight: 900;
+    font-style: normal;
+  }
+  
+
+.categorySelector{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 3%;
+}
+
+.filterIcon{
+    color:darkcyan;
+}
+
+.categorySelector select{
+    height: 20%;
+    width: 12%;
+    font-family: "Merriweather", serif;
+    font-weight: 300;
+    font-style:normal;
+    font-size: calc(1vw + 0.6vh);
+}

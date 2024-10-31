@@ -1,0 +1,22 @@
+.images{
+    position: relative;
+    text-align: center;
+    height: 70vh;
+    width:100%;
+    background-color:cornsilk;
+}
+
+.imageContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    overflow-x: scroll;
+    height: 94%;
+    width: 100%;
+}
+
+.imageContainer img{
+    height: 70%;
+    width: 22%;
+    margin: 2% 2%;
+}

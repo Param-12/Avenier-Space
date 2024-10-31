@@ -1,0 +1,59 @@
+header{
+    text-align: center;
+}
+
+.headingContainer{
+    height: 18vh;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #181D31;
+    color: #BAE8E8;
+    font-family: "Signika", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 600;
+    font-style: normal;
+    font-variation-settings:
+    "GRAD" 0;
+    font-size: calc(2vw + 1vh);
+}
+
+nav{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    height: 10vh;
+    width: 100%;
+    background-color: #F2EAD3;
+    text-align: center;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    font-style: normal;
+    font-variation-settings: "wdth" 100;
+    font-size: calc(0.8vw + 0.8vh);
+}
+
+.navLinks{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 12%;
+}
+
+.loggedOff, .loggedOn{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width:10%;
+}
+
+.profile{
+    margin: 0 2%;
+}
+
+nav a{
+    margin: 1%;
+}

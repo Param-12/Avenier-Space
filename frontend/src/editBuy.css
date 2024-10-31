@@ -1,0 +1,36 @@
+.updateBackground{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.updatePane{
+    position: relative;
+    display: flex;
+    height: 86%;
+    width: 100%;
+    top: 10%;
+    background-color: azure;
+}
+
+.updateLabels{
+    display: flex;
+    flex-direction: column;
+    align-items:last baseline;
+    justify-content: space-evenly;
+    height: 60%;
+    width: 50%;
+}
+
+.updateInputs{
+    display: flex;
+    flex-direction: column;
+    align-items:first baseline;
+    justify-content: space-evenly;
+    height: 60%;
+    width: 50%;
+    margin-left: 1%;
+}

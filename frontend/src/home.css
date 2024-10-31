@@ -1,0 +1,68 @@
+h1{
+    text-align: center;
+}
+
+
+.new, .trending{
+    width: 100%;
+    overflow-x: scroll;
+    overflow-y: hidden;
+}
+
+.newItemContainer, .trendingItemContainer{
+    height: 90vh;
+    width: 300%;
+}
+
+.new{
+    background-color:#272343;
+    color: #BAE8E8;
+}
+
+.trending{
+    background-color: white;
+}
+
+.aboutWebsite{
+    background-color: #272343;
+    color: #BAE8E8;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-evenly;
+}
+
+.howItWorks{
+    background-color: white;
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0 3%;
+}
+
+.listYourOwn{
+    height: 100vh;
+    width: 100%;
+    background-color: #272343;
+    color: #BAE8E8;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    text-align: justify;
+}
+
+.listBenefits{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 2% 0;
+}
+
+.listBenefits div{
+    margin: 0 2%;
+}

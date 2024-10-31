@@ -1,0 +1,50 @@
+.item{
+    position: relative;
+    display: inline-flex;
+    height: 40vh;
+    width: 20%;
+    align-items:center;
+    justify-content:space-between;
+    border: solid;
+    background-color: whitesmoke;
+    margin: 2%;
+    flex-direction: column;
+}
+
+.item img{
+    width: 100%;
+    height: 80%;
+}
+
+.item p{
+    background-color: white;
+}
+
+.like{
+    color: red;
+}
+
+.imageFooter{
+    display: flex;
+    height: 20%;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.infoSlider{
+    position: absolute;
+    width: 100%;
+    height: 80%;
+    background-color: rgba(0, 0, 0, 0.8);
+    overflow: clip;
+}
+
+.infoSlider p{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    overflow: clip;
+}

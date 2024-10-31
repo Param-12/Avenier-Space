@@ -1,0 +1,29 @@
+.homeItem{
+    height: 80%;
+    width: 6.65%;
+    background-color: blue;
+    text-align: center;
+    border: solid;
+    margin: 2%;
+    display: inline-block;
+}
+
+.homeItemDetails{
+    height: 18%;
+    overflow:hidden;
+    margin-bottom: 2%;
+    background-color: red;
+}
+
+.homeItemImage{
+    height: 80%;
+    background-color:azure;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homeItem img{
+    height: auto;
+    width: 80%;
+}

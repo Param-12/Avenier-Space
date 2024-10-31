@@ -1,0 +1,27 @@
+.itemContainer{
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 50vh;
+    width: 100%;
+}
+
+.rightPart, .leftPart{
+    height: 90%;
+    width: 40%;
+}
+
+.leftPart{
+    text-align: center;
+}
+
+.leftPart img{
+    height: 70%;
+    width: auto;
+}
+
+.counter{
+    display: inline-block;
+    margin: 0 0.5%;
+}
+

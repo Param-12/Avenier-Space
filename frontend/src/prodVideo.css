@@ -1,0 +1,17 @@
+.videos{
+    position: relative;
+    text-align: center;
+    height: 70vh;
+    width:100%;
+    background-color: aquamarine;
+}
+video{
+    height: 80%;
+    width: 40%;
+
+}
+
+iframe{
+    height: 80%;
+    width: 50%;
+}
